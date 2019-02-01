@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.List;
 
 @Component
-public class Nomal implements Freight {
+public class Normal implements Freight {
     @Override
     public List<FreightType> getFreightType() {
         return Arrays.asList(FreightType.NORMAL, FreightType.PAC);

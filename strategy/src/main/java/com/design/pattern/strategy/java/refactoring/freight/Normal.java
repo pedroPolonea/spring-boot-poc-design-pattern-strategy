@@ -1,6 +1,6 @@
 package com.design.pattern.strategy.java.refactoring.freight;
 
-public class Nomal implements Freight {
+public class Normal implements Freight {
 
     @Override
     public double calcule(double valor) {

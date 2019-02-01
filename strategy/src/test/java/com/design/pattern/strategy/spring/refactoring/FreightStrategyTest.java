@@ -1,4 +1,4 @@
-package com.design.pattern.strategy.spring.refactoring.strategy;
+package com.design.pattern.strategy.spring.refactoring;
 
 import com.design.pattern.strategy.spring.refactoring.enums.FreightType;
 import org.hamcrest.CoreMatchers;

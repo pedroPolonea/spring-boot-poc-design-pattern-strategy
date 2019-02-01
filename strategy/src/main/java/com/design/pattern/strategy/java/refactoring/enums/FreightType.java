@@ -2,7 +2,7 @@ package com.design.pattern.strategy.java.refactoring.enums;
 
 import com.design.pattern.strategy.java.refactoring.freight.Drone;
 import com.design.pattern.strategy.java.refactoring.freight.Express;
-import com.design.pattern.strategy.java.refactoring.freight.Nomal;
+import com.design.pattern.strategy.java.refactoring.freight.Normal;
 import com.design.pattern.strategy.java.refactoring.freight.Freight;
 
 public enum FreightType {
@@ -21,13 +21,13 @@ public enum FreightType {
     NORMAL{
         @Override
         public Freight getFreight() {
-            return new Nomal();
+            return new Normal();
         }
     },
     PAC{
         @Override
         public Freight getFreight() {
-            return new Nomal();
+            return new Normal();
         }
     },
     SCHEDULED{
